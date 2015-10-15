@@ -81,13 +81,13 @@
 - (void)createViews{
     _detailed = [[UILabel alloc] initWithFrame:CGRectMake(kMARGIN, 0, 0, self.height)];
     _detailed.font = [UIFont systemFontOfSize:12];
-    _detailed.textColor = [UIColor grayColor];
+    _detailed.textColor = [UIColor blackColor];
     _detailed.textAlignment = NSTextAlignmentCenter;
     
     _button = [[UIButton alloc] init];
     [_button setImage:[UIImage imageNamed:@"love_default"] forState:UIControlStateNormal];
     _button.titleLabel.font = [UIFont systemFontOfSize:12];
-    [_button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     _lineView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 2, 0.5, 20)];
     _lineView.image = [UIImage imageNamed:@"love_line"];

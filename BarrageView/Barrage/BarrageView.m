@@ -57,7 +57,7 @@
 - (void)postBarrage{
     if (self.allList && self.allList.count > 0) {
         if (!_timer) {
-            _timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(postView) userInfo:nil repeats:YES];
+            _timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(postView) userInfo:nil repeats:YES];
         }
     }
 }
